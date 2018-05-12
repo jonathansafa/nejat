@@ -1,0 +1,195 @@
+/* HEADER Entire Navigation*/
+
+nav {
+    width: 100%;
+    margin: auto;
+    min-height: 38px;
+    position: absolute; 
+    top:0px;left:0;
+    z-index: 1000; font-family: "proxima-nova", sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-wrap {
+    width: 1280px;
+    margin: auto; 
+} 
+.header-logo {
+    margin: auto;
+    border-right:none;
+    max-height: 58px;
+    float: left; 
+    margin-left:133px;
+}
+.header-logo-right {
+    width: 10.2%;
+    float: left;
+    border-right:none;
+}
+.header-logo a {
+    width: 100%;
+    height: 58px;
+    display: block;
+    padding-top: 8px;
+}
+.header-logo-right img {
+    text-align: left;
+}
+.header-nav {
+    width: 62%;
+    margin: auto;
+    height: 38px;
+    float: right;
+    padding-top:10px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.header-button {
+    width: 24%;
+    margin: auto;
+    border-left: 1px solid #444;
+    min-height: 58px;
+    float: left;
+}
+.header-logo .log { 
+    margin: auto;
+    display: block;
+    width:100px;
+}
+.header-logo-right .logo-size {
+    display: block;
+}
+ul.nav {
+    margin: 0 !important; 
+}
+ul.nav li {
+    float: left;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; 
+    
+    transition: all 0.1s ease;
+}
+ul.nav li ul {
+    display: none;
+    position: absolute;
+    z-index: 999999;
+}
+
+
+
+
+/*   / sub-nav /   */ 
+
+ul.nav li:hover ul {
+    display: table;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 180px; padding:0;
+    
+}
+ul.nav li:hover ul li.fir:before {
+    content:"";
+    position: absolute;
+    left:48px;
+    top: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 4px 4px 4px;
+    border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+    z-index:9999;
+     transition: border 0.2s ease;
+}
+
+ul.nav li:hover ul li.fir:hover::before {    border-color: transparent transparent rgba(0, 0, 0, 0.9) transparent;
+    transition: border 0.2s ease;
+ }
+
+
+ul.nav li:hover ul li a {
+    transition: all 0.1s ease;
+    color:white;
+    text-align: left; 
+    text-indent: 20px;
+    width: 180px;
+    vertical-align: middle;
+    display: table-cell; 
+    padding:10px 0 !important;
+    font-size:11px;font-weight: 300;
+
+    letter-spacing: 0.1px;
+    font-family: "proxima-nova", sans-serif;    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+ul.nav li:hover ul li a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: background 0.2s ease;
+}
+
+
+
+
+
+ul.nav a {
+    display: block;
+    height: 25px;
+    text-decoration: none;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+    padding: 22px 11px 0 20px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; 
+    transition: all 0.2s ease;
+
+}
+ul.nav a.white {color:white;}
+ul.nav a.white:hover {color:#efefef;}
+
+nav a.d-b {background:rgba(255,255,255,.0); height: 13px; padding:10px 20px; margin-top:10px; border:0.5px solid black; border-radius: 3px; margin-left:80px; position:absolute;
+text-decoration: none; text-transform: uppercase; color: black;
+    transition: background 0.2s ease; font-weight: 500;
+
+}
+nav a.d-b:hover {background:rgba(255,255,255,.2);
+    transition: background 0.2s ease;}
+nav a.d-b.right {margin-left:180px;}
+nav a.d-b.white {color:white;border-color:white;}
+
+
+
+
+ul.nav a.selected {
+    background: url(../images/selected.png) no-repeat;
+    background-position: 34px 43px;
+}
+ul.nav a:hover {
+    color: #525252;
+}
+ul.nav:hover > li {
+    opacity: 0.8;
+}
+ul.nav:hover > li:hover {
+    opacity: 1.0;
+}
+/* header */
+.border-left {
+    display: block;
+    border-left: 1px solid #000;
+    border-right: 1px solid #444;
+    height: 58px;
+    width: 0px;
+}
+/* -- / End Header / -- */

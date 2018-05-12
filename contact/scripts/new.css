@@ -1,0 +1,666 @@
+body
+{
+	background-color:#FFF;
+	min-height:800px;
+	background-image:url(http://www.rezasafa.com/images/site_bg.png);
+	background-repeat:repeat;
+}
+#topheader 
+{
+	width:100%;
+	min-height:75px;
+	background-color:#000;
+	background-repeat:repeat-x;
+	position:relative;
+}
+#topcontainer
+{
+	margin:auto;
+	min-height:75px;
+	width:1000px;
+}
+
+#mainlogo 
+{
+	min-height:75px;
+	z-index:2;
+	width:400px;
+	margin:auto;
+	float:left;
+	margin-left:300px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+#topmenu
+{
+	width:200px; 
+	min-height:75px;
+	float:right;
+	
+	
+	
+}
+.clear {clear:both;}
+
+#topmenu ul 
+{
+	list-style-type:none;
+	height:75px; 
+	width:200px; 
+	margin:0; 
+	padding:0;
+	float:right;
+	
+}
+
+
+
+#topmenu ul a {
+
+background-repeat: no-repeat;
+background-position: right;
+padding-right: 20px;
+padding-left: 20px;
+display: block;
+line-height: 45px;
+text-decoration: none;
+font-family:Arial, Helvetica, sans-serif;
+font:Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #FFF;
+
+}
+
+#topmenu li
+{float:left;
+}
+
+#new_logo
+{
+	min-height:120px;
+	width:200px;
+	float:left;
+	background-image:url(http://www.rezasafa.com/images/logo_small.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	z-index:20000;
+	top: 0px;
+	left: -8px;
+}
+outerwrap
+{
+	margin-left:auto;
+	margin-right:auto;
+	min-height:900px;
+}
+#mainwrap
+{
+	background-color:#E6E6E8;
+	min-height:250px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-repeat:repeat-x;
+	background-position:center top;
+	margin-left:auto;
+	margin-right:auto;
+	border-top: 2px solid #666;
+}
+
+#mainwrap2
+{
+	background-color:#E6E6E8;
+	min-height:800px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin-left:auto;
+	margin-right:auto;
+	border-top: 1px solid #CCC;
+	background-image: url(http://www.rezasafa.com/images/bg_white.png);
+}
+
+#mainwrap_inner
+{
+	width:918px;
+	min-height:420px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(http://www.rezasafa.com/images/upcoming_events.jpg);
+	background-repeat:no-repeat;
+}
+#title_inner
+{
+	background-image:url(http://www.rezasafa.com/images/title.png);
+	background-repeat:no-repeat;
+	min-height:200px;
+	width:918px;
+	margin:auto
+}
+#events_inner
+{
+	width:200px; 
+	float:left; 
+	min-height:400px;
+	border-right: 1px dashed #c0c0c0;
+}
+
+#events_inner h1
+{
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:30px; 
+	color:black;
+	text-shadow:1px 1px 1px #FFF;
+	margin-top:30px;
+}
+
+#border_wrapper 
+{
+	min-height:2px; 
+	border-top:2px dashed #666;
+	margin-left:auto;
+}
+
+#footer
+{
+	background-color:#202529;
+	margin:auto;
+	min-height:160px;
+	background-image: url(http://www.rezasafa.com/images/shadow.png);
+	border-top:2px solid #666;
+	background-repeat:no-repeat;
+}
+#footer_inner 
+{
+	width:918px; 
+	min-height:150px; 
+	margin-left:auto; 
+	margin-right:auto; 
+}
+#footer_menu
+{
+	width:170px;
+	min-height:140px;
+	float:left;
+	margin-left:90px;
+}
+#footer_menu ul 
+{
+	width:170px; 
+	margin-top:15px;
+	padding-top:15px;
+	list-style-type:none;
+}
+#footer_menu li
+{
+}
+
+#footer_menu ul a
+{
+	text-decoration:none;
+	display:block; 
+	line-height:18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:14px; 
+	color:#e6e6e6; 
+	padding-left:15px; 
+	padding-right:15px;
+	
+	
+	margin-bottom:10px;
+}
+#footer_menu ul a:hover
+{
+	color:white;
+}
+#footer_menu2
+{
+	width:175px;
+	min-height:150px;
+	float:left;
+	text-decoration:none;
+	display:block;
+	lin-height:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#e6e6e6;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:10px;
+	margin-left: 15px;
+}
+#footer_menu2 ul {
+	width:200px; 
+	
+	padding-top:30px;
+	list-style-type:none;
+}
+#footer_menu2 h1
+{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:11px; 
+	color:#e6e6e6; 
+}
+	
+#footer_menu3
+{
+	width:170px;
+	min-height:150px;
+	float:left;
+	margin-left:0px;
+	text-decoration:none;
+	display:block;
+	lin-height:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#e6e6e6;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:10px;
+}
+#footer_menu3 ul {
+	width:200px; 
+	
+	padding-top:30px;
+	list-style-type:none;
+}
+#footer_menu3 ul a {
+	text-decoration:none;
+	display:block;
+	line-height:18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#e6e6e6;
+	padding-top:13px;	
+	
+}
+#footer_menu3 h1
+{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:11px; 
+	color:#e6e6e6; 
+}
+
+
+
+#footer_menu4
+{
+	width:170px;
+	min-height:150px;
+	float:left;
+	margin-left:0px;
+	text-decoration:none;
+	display:block;
+	lin-height:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	color:#e6e6e6;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:10px;
+}
+#footer_menu4 ul {
+	width:200px; 
+	
+	padding-top:30px;
+	list-style-type:none;
+}
+#footer_menu4 ul a {
+	text-decoration:none;
+	display:block; 
+	line-height:18px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:11px; 
+	color:#e6e6e6; 
+	padding-top:13px;
+	
+	
+}
+#footer_menu4 h1
+{font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:11px; 
+	color:#e6e6e6; 
+}
+
+
+
+#nav_menu
+{
+	width:300px;
+	min-height:30px;
+	float:right;
+	margin-right: 27px;
+	margin-top: 0px;
+	padding-top: 15px;
+}
+
+#nav_inner 
+{
+	width:400px;
+	min-height:30px;
+	margin-top: auto;
+}
+#nav_inner ul
+{
+	width:400px;
+	min-height:0px;
+	margin: auto;
+	list-style-type:none;
+	padding-top:20px;
+}
+#nav_inner li
+{
+	float:left;
+	
+}
+#nav_inner ul a
+{text-decoration:none;
+	display:block; 
+	lin-height:20px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+	font-size:14px; 
+	color:#e6e6e6; 
+	padding-left:15px; 
+	padding-right:15px;
+	border-right: 1px dotted #e6e6e6;
+	
+	margin-bottom:10px; 
+}
+
+#nav_inner ul a:hover
+{
+	
+color:white;
+}
+	
+#events_text
+{
+	min-height:50px;
+	width:400px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:black;
+	margin-left: 375px;
+	padding: 15px;
+	font-weight: 900;
+}
+
+#events_text h1
+{
+	font-weight:900; 
+	display:inline;
+	
+}
+
+#events_text h2
+{
+	display:inline;
+	color:#333;
+	font-weight:700; 
+	font-size:14px;
+	
+}
+#events_text h3
+{
+	
+	display:inline;
+	color:#000;
+	font-weight:900; 
+	font-size:25px;
+	
+	
+}
+#events_text h4
+{
+	font-size:12px; 
+	color:#666;
+	font-weight:700; 
+	padding-bottom:10px;
+	
+	border-bottom:1px dotted #333;
+}
+	
+	
+	
+#events_text2
+{
+	min-height:60px;
+	width:380px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:black;
+	margin-left: 375px;
+	padding: 15px;
+	font-weight: 900;
+	padding-top: 0px;
+}
+
+#events_text2 h1
+{
+	font-weight:900; 
+	display:inline;
+	
+}
+
+#events_text2 h2
+{
+	display:inline;
+	color:#333;
+	font-weight:700; 
+	font-size:14px;
+	
+}
+#events_text2 h3
+{
+	
+	display:inline;
+	color:#000;
+	font-weight:900; 
+	font-size:25px;
+	
+	
+}
+#events_text2 h4
+{
+	font-size:12px; 
+	color:#666;
+	font-weight:700; 
+	padding-bottom:10px;
+	
+	border-bottom:1px dotted #333;
+}
+
+
+
+
+#events_text3
+{
+	min-height:50px;
+	width:350px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:black;
+	margin-left: 375px;
+	padding: 15px;
+	font-weight: 900;
+}
+
+#events_text3 h1
+{
+	font-weight:900; 
+	display:inline;
+	
+}
+
+#events_text3 h2
+{
+	display:inline;
+	color:#333;
+	font-weight:700; 
+	font-size:14px;
+	
+}
+#events_text3 h3
+{
+	
+	display:inline;
+	color:#000;
+	font-weight:900; 
+	font-size:25px;
+	
+	
+}
+#events_text3 h4
+{
+	font-size:12px; 
+	color:#666;
+	font-weight:700; 
+	padding-bottom:10px;
+	
+	border-bottom:1px dotted #333;
+}
+	
+	
+
+#events_text4
+{
+	min-height:20px;
+	width:350px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:black;
+	margin-left: 375px;
+	
+	padding:5px;
+	padding-top: 0px;
+	padding-left:15px;
+	
+	font-weight: 900;
+}
+#events_text4 h1
+{
+	font-weight:900; 
+	display:inline;
+	color:#666;
+	
+}
+#main_wrap_inner
+{
+	width:918px;
+	margin:auto;
+	min-height:600px;
+}
+#contact_form
+{
+	width:570px;
+	float:left;
+	margin:auto;
+	min-height:700px;
+	padding-top: 60px;
+	margin-left: 30px;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:24px;
+	color:#666;
+	font-weight:100;
+}
+#rightinfo{
+	margin:auto;
+	width:280px;
+	float:right;
+	min-height:600px;
+}
+#label1
+{
+	width:500px;
+	float:left;
+	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:24px;
+	color:#666;
+	font-weight:100;
+}
+#label
+{
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	color:#333;
+	font-weight:bold;
+	width:200px;
+	min-height:20px;
+	margin-top: 20px;
+	line-height:130%;
+	float: left;
+}
+
+#label h2
+{
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	color:#999;
+	font-weight:normal;
+	width:200px;
+	min-height:20px;
+	margin-top: 20px;
+	display:inline;
+	margin-top:10px;
+}
+
+#furtherinfo
+{
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	float:left;
+	width:300px;
+	min-height:15px;
+	color:#333;
+	font-weight:bold;
+	margin-top:25px;
+}
+
+#checkboxes
+{
+	float:left;
+	width:570px;
+	min-height:70px;
+	font-family: Arial, sans-serif;
+	font-size:11px;
+	color:#999;
+	font-weight:normal;
+	line-height: 130%;
+	}
+
+
+button {
+/* size to your image file */
+width:100px;
+height:25px;
+/* get rid of default 'look' */
+border:none;
+border-style:none;
+/* our graphic and bg color */
+background:url(http://www.rezasafa.com/images/submitbutton.png) ;
+margin-left:0px;
+}
+
+button:hover {
+background: url(http://www.rezasafa.com/images/submitbutton.png) ;
+background-position:0 -25px;
+/* need to fix the cursor  */
+cursor:pointer;
+border:none;
+
+border-style:none;
+}
+textarea {
+    resize: none;
+    }
