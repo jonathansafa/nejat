@@ -1,3 +1,6 @@
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <meta name="author" content="TBN Nejat TV">
 <meta name="keywords" content="TBN, Nejat, Farsi TV, Christian Satellite, Christian Satellite television, farsi television, persian christians, persecuted christians, iran christianity"/>
 
@@ -36,6 +39,7 @@ $('[data-fancybox]').fancybox({
 <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/reset.css" />
 <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/style.css" />
 <link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/nav.css" />
+<link rel="stylesheet" href="<?php echo BASE_URL; ?>assets/css/responsive.css" />
 
 <!--fonts--> 
 <script src="https://use.typekit.net/cfi7xnj.js"></script>

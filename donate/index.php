@@ -8,7 +8,7 @@
 
     
     <!--stripe config file --> 
-    <?php include_once('stripe-config.php'); ?>
+    <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/configure.php'); ?>
        
     <link rel="stylesheet" type="text/css" href="https://nejattv.org/hosted/assets/jquery.fancybox.css" media="screen" />
 
@@ -33,16 +33,16 @@
             <p>Enter an amount to give</p>
             </div>
             <div class="donation-form">
-                                <form action="index.php" method="post">
-                                    <input class="form-control donation-page" data-description="TBN Nejat TV" id="custom-donation-amount" min="1" step="10.00" type="number" value="100"> 
-                                    <span class="postinput donation-page">USD</span> 
-                                    <span class="preinput donation-page">$</span> 
-                                    <script src="https://checkout.stripe.com/checkout.js">
-                                    </script> 
-                                    <button class="pay-button donation-page" id="customButton">
-                                        <h4 class="donate-text button donation-page">DONATE</h4>
-                                    </button>
-                                </form>
+                <form action="index.php" method="post">
+                    <input class="form-control donation-page" data-description="TBN Nejat TV" id="custom-donation-amount" min="1" step="10.00" type="number" value="100"> 
+                    <span class="postinput donation-page">USD</span> 
+                    <span class="preinput donation-page">$</span> 
+                    <script src="https://checkout.stripe.com/checkout.js">
+                    </script> 
+                    <button class="pay-button donation-page" id="customButton">
+                        <h4 class="donate-text button donation-page">DONATE</h4>
+                    </button>
+                </form>
 
         
         

@@ -19,7 +19,7 @@
         <?php include('../../analyticstracking.php'); ?>
             <div class="wrapper reachpage">
                 <?php include('../../assets/inc/nav.php'); ?>
-                    <section class="reach">
+                    <section class="reach mission_wrap">
                         <h1 class="hero">Our Mission</h1>
 
                         <div class="mission-statement">
@@ -32,11 +32,11 @@
                             <br> We do this by satellite TV - the most effective way of ministering to Muslims living in Farsi-speaking nations.</p>
 
                         <br>
-                        <br><img src="../../assets/img/nejat-viewers.JPG" width="600" />
+                        <br><img src="../../assets/img/nejat-viewers.JPG" width="" class="mission_image" />
 
-                        <div style="width:100%;text-align:center;padding-bottom:10px;padding-top:5px;">
+                        <div class="mission_content" style="width:100%;text-align:center;padding-bottom:10px;padding-top:5px;">
                             <span style="font-family:georgia, serif; font-size:12px; font-style:italic;">Iranians gather around a small tv to watch Pastor Reza at an underground homegroup in Iran.</span>
-                            <br>
+                           
                             <br>
                         </div>
 
@@ -49,7 +49,7 @@
                             <br>Now, we translate TV programs into Farsi - 24 hours of content every day. We reach Iranians in their own language with the power of the name of Jesus. Amen!
                             <br>
                             <br> We continue our effort through prayer, establishing new churches underground in Iran, establishing new churches in Turkey, ministering locally in California, and continuing our TV outreach into Iran.</p>
-                        <a href="<?php echo (BASE_URL . 'donate'); ?>" class="pledge-button">give now</a>
+                        <a href="<?php echo (BASE_URL . 'donate'); ?>" class="pledge-button button_drop">give now</a>
 
                     </section>
 

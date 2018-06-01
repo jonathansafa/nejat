@@ -6,7 +6,10 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/configure.php'); ?>
+<?php 
+  //  echo $_SERVER['DOCUMENT_ROOT'];
+    
+    include_once($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/configure.php'); ?>
 
     <head>
         <meta charset="utf-8">
@@ -33,9 +36,9 @@
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/nav.php'); ?>
 
                         <section class="founder">
-                            <img src="<?php echo (BASE_URL . '/assets/img/founder-reza-safa.jpg'); ?>" />
+                            <img src="<?php echo (BASE_URL . '/assets/img/founder-reza-safa.jpg'); ?>" class="founder_img" />
 
-                            <h1 class="founder"><span style="font-weight:100;font-size:20px; letter-spacing:30px; margin-bottom:40px;line-height:40px;">Pastor</span><br>REZA<span style="font-weight:bold;">SAFA</span><p class="founder">Founder, President</p></h1>
+                            <h1 class="founder"><span class="letters" style="font-weight:100;font-size:20px; letter-spacing:30px; margin-bottom:40px;line-height:40px;">Pastor</span><br>REZA<span style="font-weight:bold;">SAFA</span><p class="founder">Founder, President</p></h1>
 
                             <!-- fader -->
                             <hr class="divider-fade">

@@ -23,7 +23,12 @@
         <!-- header includes, js, css - sitewide -->
         <?php include('../assets/inc/header.php'); ?>
             <!-- / facebook plugin  / -->
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/facebook-plugin.php'); ?>
+            <?php 
+        
+  //  $_SERVER['DOCUMENT_ROOT'] . '/negat/assets/inc/facebook-plugin.php';
+        
+       // include($_SERVER['DOCUMENT_ROOT'] . '/negat/assets/inc/facebook-plugin.php'); ?>
+          <?php include('../assets/inc/facebook-plugin.php'); ?>
 
     </head>
     <body>
@@ -43,14 +48,14 @@
                             <br>with the life-changing message of Jesus Christ. </p>
 
                         <div class="nejat-watch" style="position:relative; width:640px;margin:auto;">
-                            <iframe width='640' height='480' frameborder='0' allowfullscreen src='//player.ooyala.com/static/v4/stable/4.16.12/skin-plugin/iframe.html?ec=F4aHN1ZzoJgCjhbXDqxxvwpLEYHd5kSU&pbid=ab46ae555d05485e9742859d08d4489e&pcode=pzMW46NMqRipYKP6zejxIjdrEp_c&autoplay=true'></iframe>
+                            <iframe width='640' height='480' frameborder='0' allowfullscreen src='//player.ooyala.com/static/v4/stable/4.16.12/skin-plugin/iframe.html?ec=F4aHN1ZzoJgCjhbXDqxxvwpLEYHd5kSU&pbid=ab46ae555d05485e9742859d08d4489e&pcode=pzMW46NMqRipYKP6zejxIjdrEp_c&autoplay=true' class="videos"></iframe>
                             <div style="float:left; margin:10px 0 60px 0;" class="fb-like" data-href="https://nejattv.org/watch/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
 
                         <div class="clear"></div>
-                        <div class="mission-statement" style="margin-bottom: 50px;">
+                        <div class="mission-statement new_mission" style="margin-bottom: 50px;">
 
-                            <a href="<?php echo (BASE_URL) . 'about/mission/'; ?>" class="pledge-button" style="margin-bottom:20px;">See Our Vision</a>
+                            <a href="<?php echo (BASE_URL) . 'about/mission/'; ?>" class="pledge-button button_drop" style="margin-bottom:20px;">See Our Vision</a>
                         </div>
 
                     </section>

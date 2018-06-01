@@ -41,14 +41,14 @@
 
                 <?php include('../../../assets/inc/nav.php'); ?>
                     <div class="hero_one_iran_deal"></div>
-                    <section class="reach" style="padding:25px 35px 175px 35px;">
+                    <section class="reach breaking" style="">
                         <div class="social-next">
                             <div class="fb-share-button" style="vertical-align:top;" data-href="https://nejattv.org/about/breaking/iran-deal" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnejattv.org%2Fabout%2Fbreaking%2Firan-deal&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
                             <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
 
-                        <h1 class="hero" style="color: #ab0d0d !important;">Breaking: <br>Trump Withdraws from <br>Iran Deal</h1>
+                        <h1 class="hero breaktext" style="color: #ab0d0d !important;">Breaking: <br>Trump Withdraws from <br>Iran Deal</h1>
 
                         <div class="mission-statement">
                             <h2>On Tuesday, President Trump announced the United States would be withdrawing from the Iran Deal, reinforcing sanctions on Iran and isolating Iran from the outside world.</h2>
@@ -81,7 +81,7 @@
                             <br>
                             <br>
                         </p>
-                        <img src="../../../assets/img/iran-president.jpg" width="800" />
+                        <img src="../../../assets/img/iran-president.jpg" width="" class="break_img" />
 
                         <div style="width:100%;text-align:center;padding-bottom:10px;padding-top:5px;">
                             <span style="font-family:georgia, serif; font-size:12px; font-style:italic;">Iranian President, Hassan Rouhani</span>
@@ -102,7 +102,7 @@
 
                         <br>
                         <br>
-                        <a href="<?php echo (BASE_URL . 'donate'); ?>" class="pledge-button">Support Our Broadcast into Iran</a>
+                        <a href="<?php echo (BASE_URL . 'donate'); ?>" class="pledge-button button_drop">Support Our Broadcast into Iran</a>
 
                     </section>
 

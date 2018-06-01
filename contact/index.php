@@ -1,5 +1,5 @@
-<?php include('../assets/mailer_includes/inc.config.contact.php'); ?>
-<?php include('../assets/mailer_includes/inc.variables.inject.contact.php'); ?>
+<?php //include('../assets/mailer_includes/inc.config.contact.php'); ?>
+<?php //include('../assets/mailer_includes/inc.variables.inject.contact.php'); ?>
         <!doctype html>
         <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
         <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
@@ -98,14 +98,20 @@
                                                     </li>
                                                     <li style="list-style-type:none;">
                                                         <input name="check[]" value="islam awareness" type="checkbox" class="input_class_checkbox_advertising"> </li>
+                                                    
+                                                    
+                                                    <li style="list-style-type:none;">
+                                                        <input name="check[]" value="islam awareness" type="checkbox" class="input_class_checkbox_advertising"> </li>
 
                                                 </ul>
 
                                             </div>
-
+                                            <textarea class="form-control" rows="5" placeholder="Anything you'd like to share?" id="comment"></textarea>
+<!--
                                             <textarea name="More" id="More" placeholder="Anything you'd like to share?" class="input-email">
                                                 <?php echo isset($_POST['More']) ? $_POST['More'] : '' ?>
                                             </textarea>
+-->
 
                                             <input type="hidden" name="RegisterDate" id="RegisterDate" value="<?php echo date('H:i:s M d, Y'); ?>" readonly="readonly">
                                             <div class="button-wrapper">
@@ -131,7 +137,7 @@
                                 </div>
                                 <!--display none -->
 
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13784107.813842451!2d53.542680399858206!3d32.04639872506644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1505456124630" width="1280" height="450" frameborder="0" style="border:0; margin-bottom:-3px;" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13784107.813842451!2d53.542680399858206!3d32.04639872506644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sus!4v1505456124630" width="1280" height="450" frameborder="0" style="border:0; margin-bottom:-3px;" class="mapping" allowfullscreen></iframe>
 
                             </section>
                             <!-- container -->

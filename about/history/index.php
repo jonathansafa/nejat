@@ -116,7 +116,7 @@
                     <a href="#" class="pledge-button">pledge now</a>
 
                 </section>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/footer.php'); ?>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/nejat/assets/inc/footer.php'); ?>
                     <!-- /wrapper -->
         </div>
 

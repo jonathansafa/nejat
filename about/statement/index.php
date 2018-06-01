@@ -73,7 +73,7 @@
                             <br>
                             <br> HELL AND ETERNAL RETRIBUTION—The one who physically dies in his sins without accepting Christ is hopelessly and eternally lost in the lake of fire and, therefore, has no further opportunity of hearing the Gospel or repenting. The lake of fire is literal. The terms “eternal” and “everlasting,” used in describing the duration of the punishment of the damned in the lake of fire, carry the same thought and meaning of endless existence as used in denoting the duration of joy and ecstasy of saints in the Presence of God (Heb. 9:27; Rev. 19-20).
                         </p>
-                        <a href="<?php echo (BASE_URL . 'about/mission'); ?>" class="pledge-button">see our vision</a>
+                        <a href="<?php echo (BASE_URL . 'about/mission'); ?>" class="pledge-button button_drop">see our vision</a>
 
                     </section>
 

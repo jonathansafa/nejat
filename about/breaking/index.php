@@ -36,14 +36,14 @@
 
                 <?php include('../../assets/inc/nav.php'); ?>
                     <div class="hero_one_protest"></div>
-                    <section class="reach" style="padding:25px 35px 175px 35px;">
+                    <section class="reach breaking" style="">
                         <div class="social-next">
-                            <div class="fb-share-button" style="vertical-align:top;" data-href="https://nejattv.org/about/breaking/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnejattv.org%2Fabout%2Fbreaking%2F&amp;src=sdkpreparse">Share</a></div>
-                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false">Tweet</a>
+                            <div class="fb-share-button" style="vertical-align:top;" data-href="https://nejattv.org/about/breaking/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnejattv.org%2Fabout%2Fbreaking%2F&amp;src=sdkpreparse" style="margin-top:-5pcx">Share</a></div>
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-show-count="false" style="vertical-align:middle">Tweet</a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
 
-                        <h1 class="hero" style="color: #ab0d0d !important;">Breaking: Turmoil in Iran</h1>
+                        <h1 class="hero breaktext" style="color: #ab0d0d !important;">Breaking: Turmoil in Iran</h1>
 
                         <div class="mission-statement">
                             <h2>All over Iran, citizens are taking to the streets to protest their Islamic government.</h2>
@@ -61,7 +61,7 @@
                         <br>
 
                         <!-- facebook video -->
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTBN%2Fvideos%2F1571043369598853%2F&show_text=1&width=476" width="476" height="625" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FTBN%2Fvideos%2F1571043369598853%2F&show_text=1&width=476" width="476" height="625" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" class="videos"></iframe>
                         <br>
                         <br>
 
@@ -81,7 +81,7 @@
                         </p>
 
                         <br>
-                        <br><img src="../../assets/img/iran_protest.jpg" width="800" />
+                        <br><img src="../../assets/img/iran_protest.jpg" width="" class="break_img" />
 
                         <div style="width:100%;text-align:center;padding-bottom:10px;padding-top:5px;">
                             <span style="font-family:georgia, serif; font-size:12px; font-style:italic;">Iranians protest in the streets of Tehran, the capital of Iran.</span>
@@ -118,7 +118,7 @@
                             <br>- Pastor Reza Safa
 
                         </p>
-                        <a href="<?php echo (BASE_URL . 'donate'); ?>" class="pledge-button">give now</a>
+                        <a href="<?php echo (BASE_URL . 'donate'); ?>" class="pledge-button button_drop">give now</a>
 
                     </section>
 
