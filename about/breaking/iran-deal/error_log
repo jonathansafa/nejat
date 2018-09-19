@@ -1,0 +1,5 @@
+[10-May-2018 18:54:23 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/nejattvo/public_html/assets/inc/header.php on line 48
+[10-May-2018 18:54:25 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home4/nejattvo/public_html/assets/inc/header.php on line 48
+[10-May-2018 20:35:30 America/Chicago] PHP Parse error:  syntax error, unexpected 'or' (T_LOGICAL_OR) in /home4/nejattvo/public_html/assets/inc/nav.php on line 5
+[10-May-2018 20:35:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'or' (T_LOGICAL_OR) in /home4/nejattvo/public_html/assets/inc/nav.php on line 5
+[10-May-2018 20:35:44 America/Chicago] PHP Parse error:  syntax error, unexpected 'or' (T_LOGICAL_OR) in /home4/nejattvo/public_html/assets/inc/nav.php on line 5

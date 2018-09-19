@@ -51,6 +51,7 @@ $('[data-fancybox]').fancybox({
 <?php
 $darkscheme = '/about/founder/';
 $breaking = '/about/breaking/iran-deal/';
+$donate = '/donate/';
 $options = array(
     '/',
     '/~jonathan/www/rezasafa.com/index.php',

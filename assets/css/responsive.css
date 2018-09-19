@@ -54,7 +54,7 @@ nav a.d-b {
             padding: 180px 15px 15px ;
         }
      .hero_one {
-        background: url(../img/hero_four.jpg) top !important;
+        background:url(../img/hero_iran.jpg) top !important;
         }
      .email_submission{
          height: auto;
@@ -361,7 +361,8 @@ nav a.d-b {
         
     }
     .header-logo img{
-        width: 180px;
+   width: 47px;
+    padding-left: 0;
     }
     .sidnavbar{
         display: block !important
@@ -384,7 +385,7 @@ nav a.d-b {
         z-index: 9!important
     }
     .sidenavbar ul.nav a{
-        padding:12px 11px 0 20px;
+        padding:19px 11px 27px 23px;
     }
     ul.nav a:hover{
         color: #000
@@ -867,7 +868,7 @@ aside a {
 }
 .sidenavbar ul.nav li a{
         text-align: left;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .sidenavbar ul.nav li ul{
     position: relative !important;

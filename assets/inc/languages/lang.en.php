@@ -5,11 +5,14 @@ Language: English
 ------------------
 */
 $lang = array();
-$lang['HERO_ONE_TEXT'] = '<h2>TBN Nejat TV means <br>salvation for millions in Iran.</h2>';
+$lang['HERO_ONE_TEXT'] = '<h2>Iranian Christians are<br><span style="color:#9be2fc !important;font-style: italic;
+    font-weight: bold;">fleeing to Turkey</span></br>in pursuit of freedom.</h2>';
+$lang['HERO_PRAYER'] = '<h2>This month we are asking for your prayers.</h2>';
 $lang['HERO_TURMOIL'] = '<h2><a href="https://nejattv.org/about/breaking/" style="color:#ab0d0d !important; ">BREAKING: Turmoil in Iran.</a></h2>';
 $lang['HERO_THREE_TEXT'] = '<h3>We are broadcasting the Word of God 24/7 into Iran and other nations via satellite tv. Millions of Muslims now hear the message of Jesus every day.</h3>';
 $lang['HERO_THREE_TURMOIL'] = '<h3>Currently in Iran, the citizens are protesting the Islamic government. After nearly 40 years, the Iranian people are crying for freedom! This may be the chance for the Church to finally be allowed into Iran.</h3>';
 $lang['donate_span'] = '<span>Donate to Our Efforts in Iran</span>';
+$lang['prayer_newsletter'] = '<span>Please Watch</span>';
 $lang['read_more'] = '<span>Read More</span>';
 $lang['watch_live_span'] = '<span>WATCH NEJAT TV LIVE</span>';
 $lang['email_get'] = '<span>GET OUR EMAILS</span>';

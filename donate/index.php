@@ -7,28 +7,77 @@
     <?php include_once('../assets/inc/header.php'); ?>
 
     
+   
     <!--stripe config file --> 
-    <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/configure.php'); ?>
-       
+    <?php include_once('stripe-config.php'); ?>     
     <link rel="stylesheet" type="text/css" href="https://nejattv.org/hosted/assets/jquery.fancybox.css" media="screen" />
 
- 
+    <style>
+        @media all and (max-width:640px){
+           .desktoper{
+                display: none;
+            }
+            .mobiler{
+                display: block !important;
+                padding-top:100px ;
+                padding-left:15px;
+                padding-right: 15px;
+                
+            }
+            .mobiler h3{
+                    font-family: 'proxima-nova', sans-serif;
+                    font-weight: 800;
+                    text-transform: none;
+                    font-size: 30px;
+                    text-align: center;
+                    color: #222;
+                    line-height: 1.2;
+            }  
+            .mobiler p{
+                    font-family: 'proxima-nova', sans-serif;
+                    font-size: 17px;
+                    text-align: center;
+                    line-height: 23px;
+                    color: #333;
+                    padding: 41px;
+                    padding-top: 20px;
+            }
+            .boxes{
+                padding-top: 30px
+            }
+/*
+            #single-left,#monthly-right{
+                margin-top: 150px
+            }
+*/
+            
+        }
+        @media all and (max-width:640px){
+            .foundering{
+                margin-top: 50px
+            }
+        }
+    </style>
 </head>
 <body>
     <?php include_once("../analyticstracking.php") ?>
 <div class="wrapper">
 	<?php include('../assets/inc/nav.php'); ?>
-	
+	 <div class="mobiler" style="display:none">
+        <h3>You are a partner with us. Lives will be changed because of you.</h3>
+            <p>We take accountability seriously. We work frugally and save where we can. Our promise to you is that your donation goes where it is needed most. </p>
+        
+        </div>
     <section id="banner">
 		
-        <div class="donation-boxes">
+        <div class="donation-boxes boxes">
         <div class="monthly-sub toggle-buttons">
-            <a class="toggle-one-time active">Give Once</a>
-            <a class="toggle-monthly">Monthly</a>
+            <a class="toggle-one-time active give_once">Give Once</a>
+            <a class="toggle-monthly monthly">Monthly</a>
         </div><br>
         
         <!-- one time option, left --> 
-        <div id="single-left">
+        <div id="single-left" class="single-left">
             <div class="donation-indicator">
             <p>Enter an amount to give</p>
             </div>
@@ -72,7 +121,7 @@
             
             
               <!-- monthly option, right --> 
-        <div id="monthly-right" style="height:229px !important;">
+        <div id="monthly-right" class="monthly-right" style="height:229px !important;display:none;">
            <div class="donation-indicator monthly">
             <p>Enter an amount to give <br>every month</p>
             </div>
@@ -100,11 +149,21 @@
             
             <!-- /.donation-boxes --> 
             </div>
+        <!--
         
-        
-        <div class="donation-call-to-action">
+        <div class="donation-call-to-action desktoper">
         <h3>Your donation goes to bringing the message of Jesus to the Middle East.</h3>
             <p>We raise money in other ways so that the majority of your gift goes towards funding projects that directly reach Muslims who need to hear the message of Jesus.</p>
+        
+        </div>
+
+-->
+        
+        
+        
+          <div class="donation-call-to-action desktoper">
+        <h3>You are a partner with us. Lives will be changed because of you.</h3>
+            <p>We take accountability seriously. We work frugally and save where we can. Our promise to you is that your donation goes where it is needed most. </p>
         
         </div>
         
@@ -137,7 +196,7 @@
     
     
     
-	<section class="founder">
+	<section class="founder foundering">
 		<h1 class="founder" style="margin-bottom:0; padding-bottom:30px;">TBN<span style="font-weight:bold;">NEJAT</span>TV</h1>
 		<p class="founder" style=" font-family:'georgia', serif; line-height:23px; font-style:italic; letter-spacing:1px;">Thank you for your donation to TBN Nejat Television<br>
 		and our other ministries, Reza Safa Ministries, and TBN Middle East.</p>
@@ -235,7 +294,24 @@ $(window).on('popstate', function() {
     
     
     
-    
+        <script>
+    $(document).ready(function(){
+       $('.monthly').click(function(){
+           $('.monthly-right').show();
+           $('.single-left').hide();
+           $('a.monthly').addClass("active");
+        $('a.give_once').removeClass("active");
+       }) ;
+    }); 
+    $(document).ready(function(){
+       $('.give_once').click(function(){
+           $('.monthly-right').hide();
+           $('.single-left').show();
+               $('a.give_once').addClass("active");
+        $('a.monthly').removeClass("active");
+       }) ;
+    });
+    </script>
     
     
     

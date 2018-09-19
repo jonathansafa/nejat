@@ -29,7 +29,7 @@ p.sub {    max-width: 600px; margin: auto; text-align: left;     font-size: 18px
     
 
 
-
+img.logo-img {width:100px; padding-left:68px;}
 
 .wrapper { width: 1280px; margin: auto; box-sizing: border-box; -webkit-box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3); -moz-box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3); box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3);position: relative;}
 .wrapper.reachpage { background: none;  /* url(../img/mission_page_bottom.jpg) 0 855px no-repeat no-repeat;*/ }
@@ -47,14 +47,24 @@ ul.language li.transition {  -webkit-transition: 0.5s ease-in-out;-moz-transitio
 
 .load {display: none;}
 
-.hero_one {background:  url(../img/hero_four.jpg) !important; /* url(../img/hero_iran_protests.jpg) !important;*/ background-repeat: no-repeat; min-height:686px; position: relative; overflow: hidden;}
+.hero_one {background:  url(../img/hero_iran.jpg) !important; /* url(../img/hero_iran_protests.jpg) !important;*/ background-repeat: no-repeat; min-height:870px; position: relative; overflow: hidden;}
 .hero_one_protest {background: url(../img/protest_image.jpg) !important;background-repeat: no-repeat; min-height:443px; position: relative; overflow: hidden;}
 .hero_one_iran_deal {background: url(../img/trump-header.jpg) !important;background-repeat: no-repeat; min-height:551px; position: relative; overflow: hidden;}
 
 
 
-.hero_one_text {width:550px; padding: 204px 0px 0 142px;}
-.hero_one_text h2 {font-family: 'proxima-nova', sans-serif; font-weight: 500;  text-transform: none; font-size: 42px ; text-align:left; color: /*#333333;*/#ab0d0d; line-height: 1.2;    text-decoration: underline; text-shadow: 1px 1px 20px #FFF;}
+.hero_one_text {width:550px; 
+     margin: auto;
+     margin-top: 268px;
+     text-align: center;}
+.hero_one_text h2 {    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 57px;
+    text-align: center;
+    color: /*#333333;*/#fff;
+    line-height: 1;
+    text-shadow: 0px 1px 2px #272727; }
 .hero_one_text h3 {font-family: 'proxima-nova',sans-serif; padding-top:10px; font-weight: 300; line-height: 1.4;  text-transform: none; font-size: 20px ; text-align:left;    width: 84%;     font-weight: 300; color: #424242 !important;    }
 .hero_one_text a {text-decoration: none !important;}
 .hero_one_text button {
@@ -336,7 +346,7 @@ li a.fancybox:hover { color: #2e9df7; background: url(images/right-arrow.png) no
 .fancy-footnotes { width: 93%; margin: auto; min-height: 60px; }
 
 /* Donation Page - www.rezasafa.com/donate - */ 
-section#banner { width: 100%; min-height: 700px; margin: auto; background: url(../img/tehran_red_sky.jpg) no-repeat 0px -120px; }
+section#banner { width: 100%; min-height: 700px; margin: auto; background: url(../img/donate_hero_2.jpg) no-repeat; }
 
 
 .monthly-sub {   width:100%; box-sizing: border-box;}
@@ -390,9 +400,11 @@ a.toggle-monthly { border-radius:0 3px 3px 0;cursor: pointer;}
 .donation-form {padding:15px;}
 .donation-indicator.monthly p {line-height: 18px;padding-top: 8px;}
 
-.donation-call-to-action {float:right; padding-right:120px;  padding-top: 150px;width: 489px;}
-.donation-call-to-action h3 {font-family: 'proxima-nova', sans-serif; font-weight: 500;  text-transform: none; font-size: 42px ; text-align:center; color: #222;      line-height: 1.2;}
-.donation-call-to-action p {font-family: 'proxima-nova', sans-serif; font-size: 15px; text-align: center; line-height: 16px; color: #333; padding: 41px; padding-top: 20px; }
+.donation-call-to-action {float:right; padding-right:120px;  padding-top: 169px;width: 489px;}
+.donation-call-to-action h3 {font-family: 'proxima-nova', sans-serif; font-weight: 800;  text-transform: none; font-size: 28px ; text-align:center; color: #222;      line-height: 1.2;}
+.donation-call-to-action p {font-family: 'proxima-nova', sans-serif;     font-size: 17px;
+    text-align: center;
+    line-height: 23px; color: #333; padding: 41px; padding-top: 20px; }
 
 
 .pay-button.donation-page {width:100%;background: #f7c52e; margin-top:25px;    box-sizing: border-box;}
@@ -407,7 +419,7 @@ a.toggle-monthly { border-radius:0 3px 3px 0;cursor: pointer;}
     padding: 0;
     border-width: 2px; font-size: 26px; color: rgb(54, 54, 54); font-family: 'proxima-nova', sans-serif !important; padding:10px 0 10px 40px;outline:none;}
 
-
+.display-none {display:none !important;}
 /* reach page */ 
 section.reach { text-align: center; width: 980px; padding:135px 35px 450px 35px; margin: auto;}
 section.reach.statement {padding:135px 35px 150px 35px;}
@@ -1250,7 +1262,7 @@ p.optional {position: absolute; top:95px; color: #909090;    text-transform: upp
   }
 }
 
-   
+
 
 
 
@@ -1260,6 +1272,3 @@ p.optional {position: absolute; top:95px; color: #909090;    text-transform: upp
     height: 30px;
     vertical-align: top;
 }
-
-     
-    

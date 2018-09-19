@@ -1,7 +1,6 @@
 <?php
 @ob_start();
 session_start();
-error_reporting();
 ?>
 <!doctype html>
     <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
@@ -30,23 +29,20 @@ error_reporting();
 
             <?php include_once("assets/inc/inc.facebook.php") ?>
                 <!-- remove comment after testing     -->
-                <?php //include_once('assets/mailer_includes/inc.variables.inject.php'); ?>
+                <?php include_once('assets/mailer_includes/inc.variables.inject.php'); ?>
 
                     <?php include_once('assets/inc/configure.php'); ?>
                         <?php include_once('assets/inc/header.php'); ?>
-            
-            
-            
 
         </head>
 
-        <body>
+        <body>  
             <?php include_once("analyticstracking.php") ?>
                 <div class="wrapper">
                     <!-- universal nav -->
                     <?php include_once('assets/inc/nav.php'); ?>
 
-                        <div class="hero_one hero_oneere">
+                        <div class="hero_one">
                             <ul class="language">
                                 <li>
                                     <ul>
@@ -68,60 +64,41 @@ error_reporting();
                             </style>
                             <div class="hero_one_text">
                                 <?php echo $lang['HERO_ONE_TEXT']; ?>
-                                    <?php // echo $lang['HERO_THREE_TEXT']; ?>
+                                    <?php //echo $lang['HERO_THREE_TEXT']; ?>
 
-                                        <a href="/donate/">
+                                        <!--      
+            <a href="/watch/">
+                    <button class="watch home" name="submit" value="Submit" type="Submit">
+                        <?php echo $lang['watch_live_span']; ?>
+                    </button>
+                </a>
+                <br>
+
+                <a href="/about/breaking/">
+                    <button name="submit" value="Submit" type="Submit">
+                        <?php echo $lang['read_more']; ?>
+                    </button>
+                </a><br> -->
+                                          <a data-fancybox href="https://youtu.be/jzNPitqQ7Gw?rel=0&cc_load_policy=1">
                                             <button name="submit" value="Submit" type="Submit">
-                                                <?php echo $lang['donate_span']; ?>
+                                                <?php echo $lang['prayer_newsletter']; ?>
                                             </button>
                                         </a>
                                 
-                               
+                                <!-- social homepage -->
+                                <?php // include('assets/inc/social.home.php'); ?>
+                                
+                                <!-- / hero_one_text / -->
                             </div>
-                            <div class="caption">
-                                    <p>Screengrab from Pastor Reza's latest film about Iranian refugees, A Faceless Faith.</p>
+
+                            <?php // include_once($_SERVER['DOCUMENT_ROOT'] . '/assets/inc/inc.donate.form.php'); ?>
+
+                                <div class="caption">
+                                    <!--<p>An Iranian woman joins the demonstrations in Tehran, Iran. Nearly 25 people have been killed in the protests so far.</p>-->
+
                                 </div>
                         </div>
-                    <!--768 TAB-->
-                    <div class="hero_next_mobile" style="display:none">
-                        <ul class="language">
-                                <li>
-                                    <ul>
-                                        <?php echo $lang['LANGUAGE_MENU']; ?>
 
-                                    </ul>
-
-                                </li>
-
-                            </ul>
-
-                            <style>
-                                iframe#twitter-widget-0 {
-                                    margin-right: 201px;
-                                    padding-top: 0px;
-                                    display: inline-table;
-                                    vertical-align: top;
-                                }
-                            </style>
-                        <div class="content_hero hero_one_text">
-                            <div class="" style="padding:15px">
-                        <?php echo $lang['HERO_ONE_TEXT']; ?>
-                        <?php echo $lang['HERO_THREE_TEXT']; ?>
-
-                            <a href="/donate/">
-                                <button name="submit" value="Submit" type="Submit">
-                                    <?php echo $lang['donate_span']; ?>
-                                </button>
-                            </a>
-                            </div>
-                        </div>
-                        <div class="image_heros">
-                        <img src="assets/img/hero_four2.png" alt="" width="100%">
-                        </div>
-                    </div>
-                    <!--768 TAB-->
-
-<!--
                         <div class="email_submission">
                             <div class="email_submission_form">
                                 <?php include('assets/mailer_includes/inc.form.php'); ?>
@@ -129,33 +106,11 @@ error_reporting();
                             </div>
                         </div>
 
--->
-<!--                    copy below code and change code in inc.form.php-->
-                    <div class="email_submission">
-                            <div class="email_submission_form">
-                                <form id="form" method="post" onsubmit="$('button.success').addClass('loading');">
-                                <input required="true" type="text" name="FirstName" id="FirstName" placeholder="Full name" class="input-email" value="">
-                                      <input required="" type="email" name="Email" id="Email" placeholder="Email" class="input-email" value="">
-
-                                    <input type="hidden" name="RegisterDate" id="RegisterDate" value="04:23:12 May 16, 2018" readonly="">
-                                    <input type="hidden" name="More" id="More" value="" readonly="">
-
-
-                                      <div id="form">
-                                        <button class="success" name="submit" value="Submit" type="Submit"><span>GET OUR EMAILS</span></button>
-                                      </div>
-
-
-                                </form>		
-      
-                            </div>
-                        </div>
-
                         <div class="hero_videos">
                             <div class="hero_videos_box">
                                 <a data-fancybox href="https://youtu.be/jzNPitqQ7Gw?rel=0&cc_load_policy=1">
-                                    <div class="play_video desktop_shown"> <img src="assets/img/behzad.jpg" />
-                                        <div class="see_more grey" style="border-color:#333;color:#333; padding-right:35px; padding-left:35px;"><span>Ministry Update</span></div>
+                                    <div class="play_video"> <img src="assets/img/behzad.jpg" />
+                                        <div class="see_more grey" style="border-color:#333;color:#333; padding-right:35px; padding-left:35px;">Ministry Update</div>
                                     </div>
                                 </a>
                                 <div class="right">
@@ -184,7 +139,7 @@ error_reporting();
                         </div>
 
                         <div class="sponsor_program">
-                            <div class="sponsor_div sponser_new">
+                            <div class="sponsor_div">
                                 <h4 class="caroline">Film Nights</h4>
                                 <p>
                                     <?php echo $lang['film']; ?>
@@ -206,7 +161,7 @@ error_reporting();
                                 <img style="margin-left: 0;float: right;padding-top: 86px;" src="assets/img/chevron_left.png" />
 
                             </div>
-                            <div class="sponsor_div sponser_new">
+                            <div class="sponsor_div">
                                 <h4 class="brian">Brian Houston TV</h4>
                                 <p>
                                     <?php echo $lang['brian_houston']; ?>
@@ -259,14 +214,14 @@ error_reporting();
 
                         </div>
 
-                        <section class="reach home broead_hide">
+                        <section class="reach home">
                             <h1 class="hero"><?php echo $lang['section_broadcast'];?></h1>
                             <p class="countries">
                                 <?php echo $lang['section_broadcast_text'];?>
                             </p>
                         </section>
 
-                        <section class="countries home broead_hide">
+                        <section class="countries home">
                             <div class="tooltip tooltip-iran grid grid-1 pin-location ">
                                 <a href="#"></a>
                             </div>
@@ -299,17 +254,14 @@ error_reporting();
                             </div>
 
                         </section>
-                            <section class="image_mob broead_hide" style="display:none">
-                                <img src="assets/img/map.jpg" alt="" width="100%">
-                            </section>
-                        <div class="country broead_hide">
+                        <div class="country">
                             <a href="/reach/countries/">
                                 <?php echo $lang['section_broadcast_visit'];?>
                             </a>
                         </div>
 
                         <!-- universal footer -->
-              <?php include_once('assets/inc/footer.php'); ?>
+                        <?php include_once('assets/inc/footer.php'); ?>
 
                             <!-- /wrapper -->
                 </div>
@@ -341,10 +293,20 @@ error_reporting();
                     </script>
             
             
-                    <!-- Hello newsletter banner ad -->
-                    <script src="https://my.hellobar.com/fb7cce086373f610f528d4173e5f22c5fbac53c3.js" type="text/javascript" charset="utf-8" async="async">
-                        
+                    <!-- MailerLite Universal -->
+                    <script>
+                    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+                    var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+                    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+                    var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+                    _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+                    var ml_account = ml('accounts', '936693', 'd8g1b4t1i1', 'load');
                     </script>
+                    <!-- End MailerLite Universal -->
+            
+                    <!-- Hello newsletter banner ad -->
+                    <script src="https://my.hellobar.com/fb7cce086373f610f528d4173e5f22c5fbac53c3.js" type="text/javascript" charset="utf-8" async="async"></script>
         </body>
 
     </html>

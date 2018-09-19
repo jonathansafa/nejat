@@ -6,9 +6,9 @@
         <div class="header-logo"> 
             <a href="https://nejattv.org">
                 <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) {
-               echo '<img title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-tv-white.png" />';
+               echo '<img class="logo-img" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo-white.png" />';
                 } else {
-                    echo '<img title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-tv-black.png" />'; 
+                    echo '<img class="logo-img" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo.png" />'; 
                 }
                 ?>
             </a>
@@ -16,8 +16,8 @@
          
         <div class="header-nav">
             <ul class="nav"> 
-              <li><a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="http://rezasafa.com/store/">Resources</a></li>
-              <li class="first"><a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="<?php echo (BASE_URL . 'about/mission/'); ?>">About Us</a>
+              <li><a class="<?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'white'; ?> <?php if (($_SERVER['REQUEST_URI']) == $donate) echo 'display-none';?> " href="https://rezasafa.com/store/">Resources</a></li>
+              <li class="first"><a class="<?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'white'; ?><?php if (($_SERVER['REQUEST_URI']) == $donate) echo 'display-none';?>" href="<?php echo (BASE_URL . 'about/mission/'); ?>">About Us</a>
                     <ul>
                         <li class="fir"><a href="<?php echo (BASE_URL . 'about/mission/'); ?>"  >Our Mission</a></li>
                         <li><a href="<?php echo (BASE_URL . 'about/statement/'); ?>"  >Statement of Faith</a></li>
@@ -26,10 +26,10 @@
                     </ul>
 
                 </li>
-                <li><a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="https://nejattv.org/contact/">Contact</a></li>
+                <li><a class="<?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'white'; ?><?php if (($_SERVER['REQUEST_URI']) == $donate) echo 'display-none';?>" href="https://nejattv.org/contact/">Contact</a></li>
             </ul>
-        <a class="d-b <?php if(in_array($_SERVER['REQUEST_URI'], $options)) { echo 'white'; }?>" href="https://nejattv.org/donate/">Donate</a>
-        <a class="d-b <?php if(in_array($_SERVER['REQUEST_URI'], $options)) { echo 'white'; }?> right" href="https://nejattv.org/watch/">Watch Live</a>
+        <a class="d-b <?php if (($_SERVER['REQUEST_URI']) == $donate) echo 'display-none';?> <?php if(in_array($_SERVER['REQUEST_URI'], $options)) { echo 'white'; }?>" href="https://nejattv.org/donate/">Donate</a>
+        <a class="d-b <?php if (($_SERVER['REQUEST_URI']) == $donate) echo 'display-none';?> <?php if(in_array($_SERVER['REQUEST_URI'], $options)) { echo 'white'; }?> right" href="https://nejattv.org/watch/">Watch Live</a>
          
         </div>
          <div class="sidenavbar" style="display:none">
@@ -46,68 +46,46 @@
             <div class="scrolls">
               <ul class="nav"> 
               <li>
-                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="http://rezasafa.com/store/">
+                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="https://nejattv.org/about/founder/">
                   <div class="icon">
-                    <img src="assets/img/icon.png" alt="" class="image_icon">
+                    <!--<img src="assets/img/icon.png" alt="" class="image_icon">-->
                   </div>
                   <div class="inner">
-                    <h3>Resources</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <h3>About Our Founder</h3>
+                    <p>Read more about Pastor Reza and the founding of TBN Nejat TV</p>
                   </div>
                 </a>
               </li>
               <li>
-                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="http://rezasafa.com/about/mission">
+                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="https://nejattv.org/about/mission">
                   <div class="icon">
-                    <img src="assets/img/icon.png" alt="" class="image_icon">
                   </div>
                   <div class="inner">
                     <h3>Our Mission</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Our mission is to win Muslims for Christ.</p>
                   </div>
                 </a>
               </li>
                    <li>
-                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="http://rezasafa.com/about/statement">
+                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="https://nejattv.org/about/statement">
                   <div class="icon">
-                    <img src="assets/img/icon.png" alt="" class="image_icon">
+                  <!-- <img src="assets/img/icon.png" alt="" class="image_icon">--> 
                   </div>
                   <div class="inner">
                     <h3>Statement of Faith </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Read more of our core beliefs.</p>
                   </div>
                 </a>
               </li>     
-                <li>
-                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="http://rezasafa.com/about/founder">
-                  <div class="icon">
-                    <img src="assets/img/icon.png" alt="" class="image_icon">
-                  </div>
-                  <div class="inner">
-                    <h3>Reza Safa</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </div>
-                </a>
-              </li> 
-                <li>
-                <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="http://rezasafa.com/reach/countries">
-                  <div class="icon">
-                    <img src="assets/img/icon.png" alt="" class="image_icon">
-                  </div>
-                  <div class="inner">
-                    <h3>Countries</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                  </div>
-                </a>
-              </li>
+                
                <li>
                 <a <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) echo 'class="white"'; ?> href="https://nejattv.org/contact/">
                   <div class="icon">
-                    <img src="assets/img/icon.png" alt="" class="image_icon">
+                   <!-- <img src="assets/img/icon.png" alt="" class="image_icon">--> 
                   </div>
                   <div class="inner">
                     <h3>Contact</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>Send us a note, or share a testimony!</p>
                   </div>
                 </a>
               </li>

@@ -48,7 +48,10 @@
                             <br>with the life-changing message of Jesus Christ. </p>
 
                         <div class="nejat-watch" style="position:relative; width:640px;margin:auto;">
-                            <iframe width='640' height='480' frameborder='0' allowfullscreen src='//player.ooyala.com/static/v4/stable/4.16.12/skin-plugin/iframe.html?ec=F4aHN1ZzoJgCjhbXDqxxvwpLEYHd5kSU&pbid=ab46ae555d05485e9742859d08d4489e&pcode=pzMW46NMqRipYKP6zejxIjdrEp_c&autoplay=true' class="videos"></iframe>
+                           
+<iframe id="ls_embed_1530539430" src="https://livestream.com/accounts/27460990/events/8266913/player?width=640&height=360&enableInfoAndActivity=true&defaultDrawer=&autoPlay=true&mute=false" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen> </iframe><script type="text/javascript" data-embed_id="ls_embed_1530539430" src="https://livestream.com/assets/plugins/referrer_tracking.js"></script>
+                            
+                            
                             <div style="float:left; margin:10px 0 60px 0;" class="fb-like" data-href="https://nejattv.org/watch/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </div>
 
