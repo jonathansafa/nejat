@@ -1,5 +1,6 @@
 _DB/
 _PSD/
+.gitignore
 charge.php
 config.php
 signature/
