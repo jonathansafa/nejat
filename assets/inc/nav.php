@@ -11,6 +11,7 @@
                     echo '<img class="logo-img" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo.png" />'; 
                 }
                 ?>
+                <img class="logo-img-mobile" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-mobile.png" />
             </a>
         </div>
          
@@ -34,8 +35,7 @@
         </div>
          <div class="sidenavbar" style="display:none">
          <nav>
-
-             <div id="nav-icon3">
+             <div id="nav-icon3" <?php if (($_SERVER['REQUEST_URI']) == $donate) echo 'style="display:none !important;"'; ?>>
                   <span></span>
                   <span></span>
                   <span></span>

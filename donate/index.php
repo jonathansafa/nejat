@@ -13,25 +13,28 @@
     <link rel="stylesheet" type="text/css" href="https://nejattv.org/hosted/assets/jquery.fancybox.css" media="screen" />
 
     <style>
-        @media all and (max-width:640px){
+        @media all and (max-width:1080px){
            .desktoper{
                 display: none;
             }
             .mobiler{
                 display: block !important;
-                padding-top:100px ;
+                padding-top:54px ;
                 padding-left:15px;
                 padding-right: 15px;
                 
             }
-            .mobiler h3{
+            .donation-boxes h3{
+                display: block !important;
                     font-family: 'proxima-nova', sans-serif;
-                    font-weight: 800;
+                    font-weight: 600;
                     text-transform: none;
                     font-size: 30px;
                     text-align: center;
-                    color: #222;
+                    color: white;
                     line-height: 1.2;
+                padding-bottom:20px;
+                
             }  
             .mobiler p{
                     font-family: 'proxima-nova', sans-serif;
@@ -64,13 +67,13 @@
 <div class="wrapper">
 	<?php include('../assets/inc/nav.php'); ?>
 	 <div class="mobiler" style="display:none">
-        <h3>You are a partner with us. Lives will be changed because of you.</h3>
-            <p>We take accountability seriously. We work frugally and save where we can. Our promise to you is that your donation goes where it is needed most. </p>
+         
         
         </div>
     <section id="banner">
-		
         <div class="donation-boxes boxes">
+        <h3 style="display:none">Lives will be changed because of you.</h3>
+ 
         <div class="monthly-sub toggle-buttons">
             <a class="toggle-one-time active give_once">Give Once</a>
             <a class="toggle-monthly monthly">Monthly</a>
@@ -162,7 +165,7 @@
         
         
           <div class="donation-call-to-action desktoper">
-        <h3>You are a partner with us. Lives will be changed because of you.</h3>
+        <h3>Lives will be changed because of you.</h3>
             <p>We take accountability seriously. We work frugally and save where we can. Our promise to you is that your donation goes where it is needed most. </p>
         
         </div>

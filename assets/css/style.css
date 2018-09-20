@@ -29,7 +29,8 @@ p.sub {    max-width: 600px; margin: auto; text-align: left;     font-size: 18px
     
 
 
-img.logo-img {width:100px; padding-left:68px;}
+img.logo-img {width:100px; padding-left:68px;display: block;}
+img.logo-img-mobile {display: none;}
 
 .wrapper { width: 1280px; margin: auto; box-sizing: border-box; -webkit-box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3); -moz-box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3); box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3);position: relative;}
 .wrapper.reachpage { background: none;  /* url(../img/mission_page_bottom.jpg) 0 855px no-repeat no-repeat;*/ }
@@ -346,7 +347,12 @@ li a.fancybox:hover { color: #2e9df7; background: url(images/right-arrow.png) no
 .fancy-footnotes { width: 93%; margin: auto; min-height: 60px; }
 
 /* Donation Page - www.rezasafa.com/donate - */ 
-section#banner { width: 100%; min-height: 700px; margin: auto; background: url(../img/donate_hero_2.jpg) no-repeat; }
+section#banner { 
+    width: 100%; min-height: 700px; 
+    margin: auto; background: url(../img/donate-top-1280.jpg) no-repeat; 
+    background-size: cover;
+    background-position: top;
+}
 
 
 .monthly-sub {   width:100%; box-sizing: border-box;}
@@ -400,11 +406,11 @@ a.toggle-monthly { border-radius:0 3px 3px 0;cursor: pointer;}
 .donation-form {padding:15px;}
 .donation-indicator.monthly p {line-height: 18px;padding-top: 8px;}
 
-.donation-call-to-action {float:right; padding-right:120px;  padding-top: 169px;width: 489px;}
-.donation-call-to-action h3 {font-family: 'proxima-nova', sans-serif; font-weight: 800;  text-transform: none; font-size: 28px ; text-align:center; color: #222;      line-height: 1.2;}
+.donation-call-to-action {float:right; padding-right:120px;  padding-top: 75px;width: 489px;}
+.donation-call-to-action h3 {font-family: 'proxima-nova', sans-serif; font-weight: 800;  text-transform: none; font-size: 28px ; text-align:center; color: white !important; ;      line-height: 1.2;}
 .donation-call-to-action p {font-family: 'proxima-nova', sans-serif;     font-size: 17px;
     text-align: center;
-    line-height: 23px; color: #333; padding: 41px; padding-top: 20px; }
+    line-height: 23px; color: white !important; padding: 41px; padding-top: 20px; }
 
 
 .pay-button.donation-page {width:100%;background: #f7c52e; margin-top:25px;    box-sizing: border-box;}

@@ -38,8 +38,8 @@
             </ul>
         </div>
          <div class="column small shows" style="display:none"><h3>connect with us</h3>  
-            <a href="https://youtube.com/rezasafaministries"><img src="assets/img/icon-youtube.png" alt=""></a>
-             <a href="https://facebook.com/rezasafaofficial/"><img src="assets/img/icon-facebook.png" alt=""></a>
+            <a href="https://youtube.com/rezasafaministries"><img src="<?php echo (BASE_URL . 'assets/img/icon-youtube.png'); ?>" alt=""></a>
+             <a href="https://facebook.com/rezasafaofficial/"><img src="<?php echo (BASE_URL . 'assets/img/icon-facebook.png'); ?>" alt=""></a>
         </div>
     </section>
        
