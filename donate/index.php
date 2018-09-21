@@ -34,6 +34,7 @@
                     color: white;
                     line-height: 1.2;
                 padding-bottom:20px;
+                text-shadow: 1px 0px 6px #525252;
                 
             }  
             .mobiler p{
@@ -59,6 +60,8 @@
             .foundering{
                 margin-top: 50px
             }
+            .donation-boxes h3 {
+                text-shadow: none !important;}
         }
     </style>
 </head>

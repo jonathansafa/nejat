@@ -3,8 +3,10 @@
     nav{
         min-height:auto !important
     }
-      
-    section#banner {min-height: 600px !important;    background-position: 50% calc(50% - 50px);}
+
+    section#banner {background: url(../img/donate-top-1280.jpg) no-repeat;
+        background-position: 45% calc(50% - 99px); background-size: cover;}
+
     
 nav a.d-b {
     background: #ab0d0d;
@@ -450,7 +452,7 @@ nav a.d-b {
     
     section#banner {
     background: url(../img/donate-top-640.jpg) no-repeat;    min-height: 693px !important;
-    background-position: top;
+    background-position: -500px 100px;
     }
     
     
@@ -1071,6 +1073,7 @@ aside a {
     letter-spacing: -.08px;
     text-transform: none;
     text-align: left;
+    font-family: 'proxima-nova', sans-serif;
 }
 .scrolls ul.nav a{
     height: auto !important
