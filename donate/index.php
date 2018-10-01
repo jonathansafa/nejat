@@ -17,6 +17,8 @@
            .desktoper{
                 display: none;
             }
+            .desktoper p {font-weight: 400;}
+            .donation-call-to-action p {font-weight: 400 !important;}
             .mobiler{
                 display: block !important;
                 padding-top:54px ;
@@ -195,14 +197,18 @@
     
     
     
+    <!--
+    <section class="monthly-stat">
+        <h3>Your $100.00 monthly donation can help sponsor a pastor in Turkey for a month.</h3>
     
     
+    </section>
     
     
+    --> 
     
     
-    
-	<section class="founder foundering">
+	<section class="founder foundering donation-replace">
 		<h1 class="founder" style="margin-bottom:0; padding-bottom:30px;">TBN<span style="font-weight:bold;">NEJAT</span>TV</h1>
 		<p class="founder" style=" font-family:'georgia', serif; line-height:23px; font-style:italic; letter-spacing:1px;">Thank you for your donation to TBN Nejat Television<br>
 		and our other ministries, Reza Safa Ministries, and TBN Middle East.</p>

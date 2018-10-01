@@ -5,9 +5,15 @@
      <div class="nav-wrap">
         <div class="header-logo"> 
             <a href="https://nejattv.org">
-                <?php if ((((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) or (($_SERVER['REQUEST_URI']) == $donate)) {
-               echo '<img class="logo-img" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo-white.png" />';
-                } else {
+                <?php if (((($_SERVER['REQUEST_URI']) == $darkscheme)) or (($_SERVER['REQUEST_URI']) == $breaking)) {
+               echo '<img class="logo-img" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo-white.png" 
+               />';
+                } 
+                elseif ((($_SERVER['REQUEST_URI']) == $donate)) { echo '<img class="logo-img-donate" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo-white.png" 
+               />';
+                }
+                
+                else {
                     echo '<img class="logo-img" title="TBN Nejat TV" src="https://nejattv.org/assets/img/tbn-nejat-logo.png" />'; 
                 }
                 ?>

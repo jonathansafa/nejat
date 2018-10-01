@@ -30,6 +30,7 @@ p.sub {    max-width: 600px; margin: auto; text-align: left;     font-size: 18px
 
 
 img.logo-img {width:100px; padding-left:68px;display: block;}
+img.logo-img-donate {   width:100px; padding-left: 197px;     display: block;    padding-top: 35px;}
 img.logo-img-mobile {display: none;}
 
 .wrapper { width: 1280px; margin: auto; box-sizing: border-box; -webkit-box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3); -moz-box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3); box-shadow: 1px 0px 6px 0px rgba(50, 50, 50, 0.3), -1px 0px 6px 0px rgba(50, 50, 50, 0.3);position: relative;}
@@ -352,7 +353,7 @@ section#banner {
     margin: auto; 
     background: url(../img/donate-top-1280-top.jpg) no-repeat; 
     background-size: cover;
-    background-position: top;
+    background-position: 0 -60px;
 }
 
 
@@ -401,18 +402,26 @@ a.toggle-monthly { border-radius:0 3px 3px 0;cursor: pointer;}
 #single-left {width:100%; display: block;border-radius:4px; background: white;margin-top: 40px;  box-sizing: border-box; border:1px solid #dedede; position: relative;    height: 292px;}
 #monthly-right {width:100%; display: block;border-radius:4px; background: white;margin-top: 40px;  box-sizing: border-box; border:1px solid #dedede; position: relative;    height: 292px;}
 
-.donation-boxes { padding-top: 175px; margin-left: 200px;width: 375px;height: 400px; float: left;}
+.donation-boxes {     
+    padding-top: 182px;; margin-left: 200px;width: 375px;height: 400px; float: left;}
 .donation-indicator {height:50px; line-height: 50px; width: 100%; border-bottom:1px solid #dedede; background:#fdefc8;}
 .donation-indicator p {font-family: 'proxima-nova', sans-serif; text-align: center; width: 100%; line-height: 50px; }
 .donation-form {padding:15px;}
 .donation-indicator.monthly p {line-height: 18px;padding-top: 8px;}
 
 .donation-call-to-action {float:right; padding-right:120px; 
-    padding-top: 170px;width: 489px;}
+    padding-top: 120px;width: 489px;}
 .donation-call-to-action h3 {font-family: 'proxima-nova', sans-serif; font-weight: 800;  text-transform: none; font-size: 28px ; text-align:center; color: white !important; ;      line-height: 1.2;}
-.donation-call-to-action p {font-family: 'proxima-nova', sans-serif;     font-size: 17px;
+.donation-call-to-action p {font-family: 'proxima-nova', sans-serif;     
+    font-size: 17px;
     text-align: center;
-    line-height: 23px; color: white !important; padding: 41px; padding-top: 20px; }
+    line-height: 23px;
+    color: white !important; 
+    padding: 41px;
+    padding-top: 20px; 
+    font-weight: 400;
+
+}
 
 
 .pay-button.donation-page {width:100%;background: #f7c52e; margin-top:25px;    box-sizing: border-box;}
@@ -531,9 +540,31 @@ section.pledge h2 { font-size: 28px; line-height: 1.2; color: #33323; font-weigh
 p.sub img {margin-left:-50px;padding-bottom:20px;}
 
 
+/* Donation Page */
+section.donation-replace {background-color: #f7f8f8;}
 
+section.monthly-stat {    background-color: white;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    text-align: center;
+}
+
+
+section.monthly-stat h3 {font-family: 'proxima-nova', sans-serif;
+    margin: auto;
+    text-align: center;
+    color: #284f5a !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;}
 
  
+
+
 
 /* Founder Page */ 
 section.founder h1.founder {font-family: "proxima-nova", sans-serif; text-align: center;padding:60px; font-weight:100; letter-spacing: 20px; font-size: 46px;}

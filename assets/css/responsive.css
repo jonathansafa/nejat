@@ -372,6 +372,7 @@ nav a.d-b {
     }
     
     .header-logo img.logo-img {display: none;}
+    .header-logo img.logo-img-donate {display: none;}
     .header-logo img.logo-img-mobile {display: block;
     width: 90% !important;}
     
