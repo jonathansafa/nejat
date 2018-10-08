@@ -97,7 +97,7 @@
                 </div>
             </section>
 
-            <section class="steps-main" id="step-flag">
+            <section class="steps-main cross-cut" id="step-flag">
                 <div class="step-main-1">
                     <img class="mobile-view flag-img visible-hidden" src="img/flag-mobile.jpg" alt="flag"/>
                     <img class="desk-view flag-img visible-hidden" src="img/flag.jpg" alt="flag"/>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </section>
-            <section class="steps-main">
+            <section class="steps-main  cross-cut cut-margin">
                 <div class="step-main-2">
                     <img class="mobile-view flag-img visible-hidden" src="img/refugee-mobile.jpg" alt="flag"/>
                     <img class="desk-view flag-img visible-hidden" src="img/refugee.jpg" alt="flag"/>
@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </section>
-            <section class="steps-main">
+            <section class="steps-main  cross-cut cut-margin">
                 <div class=" step-main-3">
                     <img class="mobile-view flag-img visible-hidden" src="img/bike-mobile.jpg" alt="flag"/>
                     <img class="desk-view flag-img visible-hidden" src="img/bike.jpg" alt="flag"/>
