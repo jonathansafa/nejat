@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <section class="img-we-can-help">
+<!--            <section class="img-we-can-help">
                 <img src="img/top-brush.png" alt="top brush"/>
             </section>
             <section class="reach contact we-can-help">
@@ -88,7 +88,7 @@
             </section>
             <section class="img-we-can-help">
                 <img src="img/bottom-brush.png" alt="bottom brush"/>
-            </section>
+            </section>-->
 
             <section id="next-step">
                 <div>
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <img class="flag-img" src="img/bottom image.png" alt="flag"/>
+                <img class="flag-img" src="img/bottom image.jpg" alt="flag"/>
             </section>
             <?php include('../assets/inc/footer.php'); ?>
             <!-- /wrapper -->
