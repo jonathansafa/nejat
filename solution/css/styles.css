@@ -378,7 +378,7 @@ section.reach.contact.we-can-help h2.last-h2 {
         padding-top: 40px;
     }
 }
-@media (max-width: 575px){
+@media (max-width: 767px){
     .steps-main .div-left{
         position: absolute;
         text-align: center;
@@ -458,7 +458,7 @@ section.reach.contact.we-can-help h2.last-h2 {
 .mobile-view{
     display: none;
 }
-@media (max-width: 575px){
+@media (max-width: 767px){
     .desk-view{
         display: none;
     }
