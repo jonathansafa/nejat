@@ -151,7 +151,7 @@
                     <div class="div-center-text">
                         <h2>Beginning:</h2>
                         <h2>Building a local Bible School.</h2>
-                        <div>
+                        <div class="two-p-div">
                             <p class="col-50 float-left">
                                 Lastly, these communities of precious <br/>
                                 Iranian believers need a space to meet<br/>
